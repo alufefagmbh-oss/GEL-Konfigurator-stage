@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react'
 import tailwindcss from '@tailwindcss/vite'
 
 export default defineConfig({
-base: '/GEL-Konfiturator-stage/',
+base: '/GEL-Konfigurator-stage/',
   plugins: [react(), tailwindcss()],
   assetsInclude: ['**/*.wasm'],
   worker: { format: 'es' },
