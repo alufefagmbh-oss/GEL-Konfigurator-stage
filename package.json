@@ -1,0 +1,41 @@
+{
+  "name": "linarte-facade-configurator",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0 --port 5181 --strictPort",
+    "build": "tsc -b && vite build",
+    "test": "vitest run",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@react-three/drei": "^10.5.1",
+    "@react-three/fiber": "^9.1.2",
+    "dxf-parser": "^1.1.2",
+    "exceljs": "^4.4.0",
+    "jspdf": "^4.2.1",
+    "lucide-react": "^0.468.0",
+    "opencascade.js": "2.0.0-beta.b5ff984",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "svg2pdf.js": "^2.9.0",
+    "three": "^0.177.0",
+    "three-bvh-csg": "^0.0.17"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.1.11",
+    "@types/node": "^26.6.5",
+    "@types/react": "^19.1.8",
+    "@types/react-dom": "^19.1.7",
+    "@types/three": "^0.177.0",
+    "@vitejs/plugin-react": "^4.6.0",
+    "tailwindcss": "^4.1.11",
+    "typescript": "~5.8.3",
+    "vite": "^6.3.5",
+    "vitest": "^5.0.4"
+  },
+  "overrides": {
+    "uuid": "^11.1.1"
+  }
+}
